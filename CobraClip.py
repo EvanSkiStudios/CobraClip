@@ -13,7 +13,6 @@ mode = input('MP3? Y/N\n')
 output_location = ''.join(('C:/Users/', os.getlogin(), '/Downloads/'))
 
 #url = 'https://youtu.be/j_bi5uAigJk'
-
 if mode.upper() == "Y":
     downloadmp3(url, output_location)
 else:
