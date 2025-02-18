@@ -10,9 +10,9 @@ def downloadmp4(link, output):
     ys.download(output_path=output)
 
 
-def downloadmp3(link, output):
+def downloadAudio(link, output):
     yt = YouTube(link, on_progress_callback=on_progress)
     print(yt.title)
 
     ys = yt.streams.get_audio_only()
-    ys.download(output_path=output, mp3=True)
+    ys.download(output_path=output)
