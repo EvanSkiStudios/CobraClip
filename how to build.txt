@@ -1,3 +1,3 @@
 pyinstaller --onefile CobraClip.py
 
-it will be in dist --so you are not wondering why the exe in build is giving dll errors
+it will be in dist --so you are not wondering why the exe in build is giving dll errors   
